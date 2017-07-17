@@ -1,8 +1,8 @@
 console.log('Hello')
 import Vue from 'vue'
-import mdTest from '../docs/index.md'
+import Docs from './docs.vue'
 
 new Vue({
 	el: '#app',
-	render: h => h(mdTest)
+	render: h => h(Docs)
 })

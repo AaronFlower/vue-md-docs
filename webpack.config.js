@@ -22,6 +22,10 @@ module.exports = {
 			{
 				test: /\.md$/,
 				loader: ['vue-loader', 'md-loader']
+			},
+			{
+				test: /\.vue$/,
+				loader: 'vue-loader'
 			}
 		]
 	},
